@@ -254,25 +254,25 @@
         alert("Este é um site demonstrativo. Para ativar os pedidos, substitua WHATSAPP_NUMBER pelo número real da pizzaria no final do arquivo index.html.");
         return null;
       }
-      return "https://wa.me/" + number + "?text=" + encodeURIComponent(message);
+      return "https://wa.me/5527981051827;
     }
 
     document.querySelectorAll(".order-card").forEach(button => {
       button.addEventListener("click", () => {
         const message = `Olá! Gostaria de pedir uma pizza ${button.dataset.pizza}. Vi o preço demonstrativo de R$ ${button.dataset.price}. Podem confirmar o valor e as opções disponíveis?`;
-        const url = whatsappUrl(message);
+        const url = https://wa.me/5527981051827(Olá! Vim pelo site da Come + Pizzaria e gostaria de conhecer o cardápio);
         if (url) window.open(url, "_blank", "noopener,noreferrer");
       });
     });
 
     document.getElementById("generalOrder").addEventListener("click", () => {
-      const url = whatsappUrl("Olá! Vim pelo site da Come + Pizzaria e gostaria de conhecer o cardápio e as opções de pedido.");
+      const url = https://wa.me/5527981051827("Olá! Vim pelo site da Come + Pizzaria e gostaria de conhecer o cardápio e as opções de pedido.");
       if (url) window.open(url, "_blank", "noopener,noreferrer");
     });
 
     document.getElementById("floatingWhatsApp").addEventListener("click", event => {
       event.preventDefault();
-      const url = whatsappUrl("Olá! Vim pelo site da Come + Pizzaria. Pode me ajudar com um pedido?");
+      const url = https://wa.me/5527981051827("Olá! Vim pelo site da Come + Pizzaria. Pode me ajudar com um pedido?");
       if (url) window.open(url, "_blank", "noopener,noreferrer");
     });
 
